@@ -5,7 +5,6 @@ magic_num = randint(1, 5)
 input_times = 0
 bingo=False
 while bingo == False:
-    print(magic_num)
     input_times += 1
     input_num = input("Enter your lucky number (1...5):")
     if input_num.isdigit():
